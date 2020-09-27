@@ -1,0 +1,49 @@
+.menu-wrap {
+    display: flex;
+    justify-content: space-between;
+    @include sp {
+        flex-direction: column;
+    }
+}
+
+.item-wrap {
+    width: 274px;
+    font-family: Roboto Mono for Powerline;
+    @include sp {
+        width: 335px;
+        text-align: center;
+    }
+    &__img {
+        margin-bottom: 35px;
+    }
+    &__title {
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 35px ;
+            @include sp {
+                text-align: left;
+        }
+    }
+    &__sentence {
+        font-size: 1.6rem;
+        margin-bottom: 35px;
+        @include sp {
+            text-align: left;
+            line-height: 38px;
+        }
+    }
+}
+
+.price {
+    font-size: 1.6rem;
+    text-align: right;
+    @include sp {
+        margin-bottom: 65px;
+    }
+}
+
+.jens .beautiful .edger {
+    @include sp {
+        width: 100%;
+    }
+}

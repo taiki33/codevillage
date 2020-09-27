@@ -1,0 +1,65 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 10;
+        @include tab {
+            width: 100%;
+            background-color: #fff;
+            // position: none;
+    }
+}
+
+.hd-logo {
+    font-size: 3.8rem;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    font-family: Roboto Mono for Powerline;
+    margin:68px 0 0 77px;
+        @include tab {
+            font-weight: normal;
+            font-size: 2.2rem;
+            margin: 24px 0 24px 21px;
+    }
+}
+
+.hd-nav {
+    font-size: 1.8rem;
+    margin-top: 77px;
+        @include tab {
+            display: none;
+    }
+    ul {
+        display: flex;
+    }
+}
+
+.hd-nav li {
+    margin-left: 20px;
+    &:first-child {
+        border-bottom: 1px solid #707070;
+    }
+}
+
+.ham {
+    display: none;
+    @include tab {
+        width: 16px;
+        height: 14px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 2rem;
+        margin-top: 3rem;
+        span {
+            display: inline-block;
+            width: 100%;
+            height: 2px;
+            background-color: #3B4043;
+            &:nth-of-type(3) {
+                content: "";
+                width: 70%;
+            }
+        }
+    }
+}

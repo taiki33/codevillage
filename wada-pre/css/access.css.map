@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACJ,gBAAgB,EAAE,SAAS;EAC3B,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;CACd;;AAED,AAAA,QAAQ,CAAC;EACL,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,GAAG;EACV,gBAAgB,EAAE,OAAO;EACzB,SAAS,EAAE,MAAM;CACpB",
+    "sources": [
+        "../sass/access.scss"
+    ],
+    "names": [],
+    "file": "access.css"
+}

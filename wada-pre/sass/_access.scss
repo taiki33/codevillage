@@ -1,0 +1,64 @@
+.access {
+    background-color: #A193861F;
+    height: 760px;
+    width: 100%;
+    @include sp {
+        text-height: 700px;
+    }
+    .title {
+        padding-top: 250px;
+        width: 85%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        @include sp {
+            padding: 60px 0 50px 0;
+        }
+    }
+}
+
+
+.access-wrap {
+    display: flex;
+        @include sp {
+            flex-direction: column-reverse;
+        }
+}
+
+.address {
+    height: 400px;
+    width: 40%;
+    background-color: #D0C5BA;
+    font-size: 1.6rem;
+    font-family: Roboto Mono for Powerline;
+    padding: 100px 193px 100px 104px;
+    @include tab {
+        height: 280px;
+        width: 100%;
+        text-align: left;
+        padding: 20px 30px 150px 60px;
+    }
+    h4 {
+        color: #00000038;
+        font-size: 2.4rem;
+    }
+    p {
+        color: #ffffff;
+        font-size: 1.8rem;
+        margin-top: 25px;
+        @include sp {
+            font-size: 1.6rem;
+    }
+    }
+}
+
+.access-map {
+    width: 100%;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+    @include sp {
+    height: 231px;
+    }
+}
